@@ -1,0 +1,113 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fdfbf0;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #58a786;
+  font-family: "Poppins";
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* Back button */
+.back-button {
+  margin: 10px 0;
+}
+
+.back-link {
+  color: #58a786;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Form */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #58a786;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #58a786;
+}
+
+.foto-makanan input {
+  padding: 5px;
+}
+
+.deskripsi {
+  flex: 1 1 100%;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #2e8b57;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto 0;
+  display: block;
+}
+
+.submit-button:hover {
+  background-color: #246947;
+}
